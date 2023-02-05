@@ -9,11 +9,11 @@ The autonomus bot has to cover all checkpoint(animals in Arena) in predefined or
 
 # Equipment Used
 
-Node mcu
-Motor driver
-Motors
-Encoders
-Car Kit
+1. Node mcu 
+2. Motor driver
+3. Motors
+4. Encoders
+5. Car Kit
 
 # Path Planning
 
