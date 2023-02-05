@@ -1,0 +1,7 @@
+tiger
+giraffe
+panda
+elephant
+kangaroo
+crocodile
+hippopotamus

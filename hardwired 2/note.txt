@@ -1,0 +1,5 @@
+both laptop and nodemcu should connected to the same wifi
+code me jo ip address hai usme laptop ka internal ip address daldena 
+laptop ka internal ip address pata lagane ke liye terminal me "ifconfig" dalna and then "inet" ke baju jo ip likhi hai vahi hai internal ip address
+laptop me roscore start karne ke baad dusre terminal me "roslaunch rosserial_server socket.launch" dalna ya phir "rosrun rosserial_python serial_node.py tcp" dalna
+agar sab sahi raha to connected dikhayega

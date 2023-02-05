@@ -1,0 +1,4 @@
+aruco_type: "DICT_4X4_50"
+default_px: 0
+default_py: 0
+default_yaw: 0

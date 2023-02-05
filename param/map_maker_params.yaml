@@ -1,0 +1,7 @@
+color: [255, 255, 255]
+color_thresh: 100
+conf_thresh: 0.1
+nms_thresh: 0.1
+min_dist: 10
+priority_order: ["tiger", "giraffe", "panda", "elephant", "kangaroo", "crocodile", "hippopotamus"]
+default_locations: [[100,100], [20,90], [20,45], [100,100]]

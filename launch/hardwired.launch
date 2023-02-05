@@ -1,0 +1,17 @@
+<launch>
+  
+  <node name="image_generator" pkg="hardwired" type="image_generator.py">
+  </node>
+  <node name="map_maker" pkg="hardwired" type="map_maker.py">
+    <rosparam file="$(find hardwired)/param/map_maker_params.yaml"/>
+  </node>
+  <node name="state_finder" pkg="hardwired" type="state_finder.py">
+    <rosparam file="$(find hardwired)/param/state_finder_params.yaml"/>
+  </node>
+  <node name="yaw_calculator" pkg="hardwired" type="yaw_calculator.py">
+    <rosparam file="$(find hardwired)/param/yaw_calculator_params.yaml"/>
+  </node>
+  <node name="display" pkg="hardwired" type="display.py" output="screen">
+  </node>
+
+</launch>
